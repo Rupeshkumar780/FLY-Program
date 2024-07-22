@@ -38,10 +38,10 @@ main{
     margin: 40px 0;
 }
 .box{
-    height: 200px;
-    min-width: 200px;
+    height: 300px;
+    min-width: 300px;
     border: 2px solid black;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .top-heading{
     font-size: 18px;
