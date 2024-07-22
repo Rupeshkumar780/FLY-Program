@@ -38,8 +38,8 @@ main{
     margin: 40px 0;
 }
 .box{
-    height: 100px;
-    min-width: 100px;
+    height: 200px;
+    min-width: 200px;
     border: 2px solid black;
     margin-bottom: 20px;
 }
@@ -58,7 +58,7 @@ footer{
     align-items: center;
     color: white;
     font-size: 20px;
-    
+    margin-top:300px;
 }
 @media (max-width:500px){
     footer{
