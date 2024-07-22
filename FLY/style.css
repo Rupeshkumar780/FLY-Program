@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background: linear-gradient(rgb(242, 242, 255),rgb(99, 99, 244));
+}
+header{
+    background: linear-gradient(#ff9595,#7D0A0A);
+    text-align: center;   
+}
+header img{
+    height: 80px;
+    width: 80px;
+    float: left;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 24px;
+}
+header h1{
+    font-size: 68px;
+    color: white;
+}
+header h3{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+main{
+    margin: 30px 0;
+}
+.pillars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0;
+}
+.box{
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.top-heading{
+    font-size: 18px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+footer{
+    background: linear-gradient(rgb(169, 169, 171),rgb(45, 45, 45));
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    
+}
+@media (max-width:500px){
+    footer{
+       display: flex;
+       flex-direction: column;
+    }
+} 
+@media (min-width:250px) and (max-width:400px){
+    header h3{
+        padding-left: 100px;
+    }
+}
