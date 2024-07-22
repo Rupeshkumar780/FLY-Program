@@ -39,7 +39,7 @@ main{
 }
 .box{
     height: 100px;
-    width: 500px;
+    min-width: 100px;
     border: 2px solid black;
     margin-bottom: 20px;
 }
