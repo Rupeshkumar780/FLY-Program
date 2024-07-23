@@ -97,7 +97,7 @@ footer{
         padding-left: 100px;
     }
 }
-@media(min-width:1000px){
+@media(min-width:1050px){
     .box{
         margin-right: 150px;
         width: 350px;
@@ -110,10 +110,11 @@ footer{
         display: flex;
         justify-content: flex-start;
     }
-    video{
+    iframe{
+        border: 3px white solid;
         border-radius: 10px;
-        height: 300px;
         width: 400px;
+        height:250px;
     }
     .container{
         display: flex;
@@ -121,17 +122,18 @@ footer{
         align-items: center;
     }
 }
-@media(max-width:1000px){
+@media(max-width:1050px){
     .box{
         margin-bottom: 10px;
         width: 345px;
         display : flex;
         flex-direction : column;
     }
-    video{
+    iframe{
+        border: 3px white solid;
         border-radius: 10px;
-        height: 220px;
-        width: 330px;
+        width: 350px;
+        height: 230px;
     }
     .top-heading{
         font-size: 18px;
