@@ -68,7 +68,10 @@ pre{
     flex-wrap: wrap;
     font-size: 13px;
 }
-
+#b6{
+    height:100px;
+    width:200px;
+}
 .box h3{
     margin: 15px 0;
     text-align: center;
