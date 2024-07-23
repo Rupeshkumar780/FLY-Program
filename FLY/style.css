@@ -47,7 +47,7 @@ main{
     border-radius: 10px;
     background: linear-gradient(-45deg,pink,aqua, pink);
     padding-left: 6px;
-    /* font-weight: 550; */
+    display : flex;
 }
 .box h1{
     font-size: 25px;
@@ -71,7 +71,7 @@ pre{
 }
 
 .box h3{
-    margin-top: 15px;
+    margin: 15px 0;
     text-align: center;
     transform: translateX(-20px);
 }
@@ -99,7 +99,6 @@ footer{
 @media(min-width:1000px){
     .box{
         margin-right: 150px;
-        height: 300px;
         width: 350px;
     }
     .top-heading{
@@ -122,11 +121,7 @@ footer{
 @media(max-width:1000px){
     .box{
         margin-bottom: 10px;
-        height: 350px;
         width: 345px;
-    }
-    #b3{
-        font-size : 15px
     }
     video{
         border-radius: 10px;
@@ -140,7 +135,7 @@ footer{
         justify-content: flex-start;
     }
     .box h3{
-        margin-top: 5px;
+        margin: 10px 0;
     }
     pre{
         font-size: 11px;
