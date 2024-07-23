@@ -48,6 +48,7 @@ main{
     background: linear-gradient(-45deg,pink,aqua, pink);
     padding-left: 6px;
     display : flex;
+    flex-direction : column;
 }
 .box h1{
     font-size: 25px;
