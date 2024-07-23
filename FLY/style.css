@@ -123,6 +123,8 @@ footer{
     .box{
         margin-bottom: 10px;
         width: 345px;
+        display : flex;
+        flex-direction : column;
     }
     video{
         border-radius: 10px;
