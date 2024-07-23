@@ -47,8 +47,6 @@ main{
     border-radius: 10px;
     background: linear-gradient(-45deg,pink,aqua, pink);
     padding-left: 6px;
-    display : flex;
-    flex-direction : row;
 }
 .box h1{
     font-size: 25px;
@@ -101,6 +99,8 @@ footer{
     .box{
         margin-right: 150px;
         width: 350px;
+        display : flex;
+        flex-direction : column;
     }
     .top-heading{
         font-size: 18px;
@@ -123,6 +123,8 @@ footer{
     .box{
         margin-bottom: 10px;
         width: 345px;
+        display : flex;
+        flex-direction : row;
     }
     video{
         border-radius: 10px;
