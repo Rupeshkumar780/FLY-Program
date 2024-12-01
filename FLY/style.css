@@ -3,11 +3,11 @@
     padding: 0; 
 }
 body{
-    background: linear-gradient(30deg,rgb(255, 255, 145),rgb(133, 248, 133),rgb(124, 124, 255));
+    background: rgb(139, 246, 246);
     width: 100%;
 }
 header{
-    background: linear-gradient(pink,#d30202);
+    background: linear-gradient(rgb(244, 157, 172),#d30202);
     text-align: center;   
 }
 header img{
@@ -75,7 +75,8 @@ main{
 .box h1{
     font-size: 25px;
     margin: 5px 0 5px 0;
-    color: rgb(126, 3, 3);
+    color: rgb(199, 2, 2);
+    font-weight: 900;
 }
 .box p{
     margin-bottom: 6px;
@@ -107,7 +108,7 @@ iframe:hover{
     border: 4px solid red;
 }
 footer{
-    background: linear-gradient(rgb(169, 169, 171),rgb(45, 45, 45));
+    background: linear-gradient(rgb(148, 148, 149),rgb(45, 45, 45));
     height: 60px;
     width: 100%;
     display: flex;
