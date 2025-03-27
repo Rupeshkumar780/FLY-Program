@@ -22,6 +22,16 @@ boxes.forEach(b =>{
         b.style.border = "3.5px solid rgb(86, 83, 83)";
         b.style.transition = "ease 1s";
     });
+    b.addEventListener("touchstart", ()=>{
+        b.style.transform = "scale(1.04)";
+        b.style.border = "3.5px solid rgb(34, 34, 34)";
+        b.style.transition = "ease 1s";
+    });
+    b.addEventListener("touchend", ()=>{
+        b.style.transform = "scale(1)";
+        b.style.border = "3.5px solid rgb(86, 83, 83)";
+        b.style.transition = "ease 1s";
+    });
 })
 
 const videos = document.querySelectorAll("iframe");
