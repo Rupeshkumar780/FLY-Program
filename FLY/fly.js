@@ -47,3 +47,6 @@ videos.forEach(vdo =>{
         vdo.style.border = "3.5px solid rgb(122, 177, 255)";
     });
 });
+
+const footer = document.querySelector(".footr");
+footer.innerText += new Date().getFullYear();
