@@ -162,9 +162,9 @@ footer{
     }
     .top-heading{
         font-size: 18px;
-        margin-left: 80px;
         display: flex;
         justify-content: center;
+        align-items : center;
         flex-wrap : wrap;
     }
     iframe{
@@ -195,9 +195,9 @@ footer{
     }
     .top-heading{
         font-size: 18px;
-        margin-left: 30px;
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-wrap : wrap;
     }
     .box h3{
