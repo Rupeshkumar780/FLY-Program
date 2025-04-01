@@ -164,7 +164,7 @@ footer{
         font-size: 18px;
         margin-left: 80px;
         display: flex;
-        justify-content: flex-center;
+        justify-content: center;
         flex-wrap : wrap;
     }
     iframe{
@@ -197,7 +197,7 @@ footer{
         font-size: 18px;
         margin-left: 30px;
         display: flex;
-        justify-content: flex-center;
+        justify-content: center;
         flex-wrap : wrap;
     }
     .box h3{
